@@ -1,0 +1,8 @@
+neo4j
+pdfplumber
+pytesseract
+pillow
+transformers
+fastapi
+uvicorn
+python-multipart
