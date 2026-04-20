@@ -1,0 +1,15 @@
+{
+  "$schema": "https://schema.railpack.com",
+  "steps": {
+    "install": {
+      "commands": ["pip install -r requirements.txt"]
+    },
+    "build": {
+      "inputs": [{ "step": "install" }],
+      "commands": ["uvicorn api.main:app --reload"]
+    }
+  },
+  "deploy": {
+    "startCommand": "uvicorn api.main:app --reload"
+  }
+}
