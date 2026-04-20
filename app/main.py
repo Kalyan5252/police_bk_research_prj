@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from api.routes import loaders
+from app.routes import loaders
 
 app = FastAPI(title="Data Loaders API", version="1.0.0")
 
