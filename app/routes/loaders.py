@@ -3,12 +3,12 @@ import shutil
 import tempfile
 import os
 
-from api.batch_loaders.cdr_loader import load_cdr_fast
-from api.batch_loaders.tower_loader import load_tower_dump_fast
-from api.batch_loaders.ipdr_loader import load_ipdr_fast
-from api.batch_loaders.kyc_loader import load_kyc_fast
-from api.batch_loaders.bank_loader import load_bank_fast
-from api.batch_loaders.sdr_loader import load_sdr_fast
+from app.batch_loaders.cdr_loader import load_cdr_fast
+from app.batch_loaders.tower_loader import load_tower_dump_fast
+from app.batch_loaders.ipdr_loader import load_ipdr_fast
+from app.batch_loaders.kyc_loader import load_kyc_fast
+from app.batch_loaders.bank_loader import load_bank_fast
+from app.batch_loaders.sdr_loader import load_sdr_fast
 
 router = APIRouter()
 
